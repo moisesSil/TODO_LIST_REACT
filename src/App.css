@@ -1,0 +1,105 @@
+
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+
+}
+.App {
+  text-align: center;
+}
+input{
+  padding: 4px;
+  margin-right: 8px;
+  border: none;
+  border-bottom: 1px solid blue;
+  height: 50px;
+  width: 50%;
+}
+h1{
+  height: 56px;
+  /* background: gray; */
+ 
+}
+ul{
+  list-style-type: none;
+  
+}
+li{
+  margin: 12px 0;
+}
+.delete-button{
+  font-size: 12px;
+  margin-left: 8px;
+
+  border: none;
+  color: white;
+  border-radius: 4px;
+   
+  padding-top: 4px;
+  margin-bottom: 4px;
+  cursor: pointer;
+
+}
+input:focus{
+  outline: none;
+}
+input{
+  font-size: 18px;
+  color:	#1C1C1C;
+
+  
+}
+::placeholder{
+  color:	#778899;
+ 
+
+}
+
+
+@keyframes animation{
+  0%{
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+  }
+  100%{
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+
+  }
+}
+.btn  {
+  
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 15px;
+
+  
+  border: none;
+
+
+}
+.btn button{
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 100px;
+ 
+  
+}
+
+
+
+ .list{
+  background: pink;
+  justify-content: center;
+  margin: 12px;
+
+  
+
+
+} 
